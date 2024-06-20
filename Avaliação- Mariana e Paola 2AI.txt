@@ -1,0 +1,27 @@
+Alunas: Mariana e Paola 2AI
+
+Respostas:
+
+ 1- O MVVM serve para organizar as camadas do projeto separando a parte da lógica de negócios da visualização do usuário. 
+
+ 2- Ele é um pacote com ferramentas que auxilia na implementação do padrão MVVM. Ele incorpora uma biblioteca ao projeto.
+
+ 3- O appShell define hierarquias visuais, como por exemplo definir qual é a página principal e as secundárias, e a navegação de páginas dentro do aplicativo. Para adicionar a    view, primeiro entre no arquivo AppShell.xaml, no ShellContent na propriedade ContentTemplate, vai estar escrito MainPage então mude para o nome do arquivo da view.
+
+ 4- Os elementos do TabBar não são visíveis para o usuário, eles servem apenas para ajudar na organização da hierarquia das páginas.
+
+ 5- No Solution Explorer, clique com o botão direito em cima do projeto e clique na opção Manage NuGet Packages. Após isso vá na parte de Browse e digite o pacote que deseja instalar.
+
+ 6- Binding é conexão entre propriedades da View e ViewModel. Criamos eles na View e usamos o ObservableProperty no ViewModel para acessá-los.
+
+ 7- Command é um método que cria um novo comando.
+
+ 8- O Binding Context interliga os bindings da View com as propriedades observáveis na ViewModel. Basicamente ele guia para que os bindings da View "observem" as propriedades da ViewModel.
+
+ 9- A ViewModel é camada responsável pela coordenação das operações que acontecem na View e na Model, ela trata os dados da View.
+
+ 10- Se construirmos uma view fora do MVVM, ela não estará tão organizada fora que po ter o problema dela se conectar com a lógica de negócios.
+
+ 11- Isso significa que o atributo vai poder ser observado pela View, permitindo que ela faça uma conexão com ele, o binding.
+
+ 12- A sintaxe e principalmente sua manipulação já que ele será espelhado na View.
